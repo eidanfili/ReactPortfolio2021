@@ -1,0 +1,19 @@
+@import "Variables.scss";
+.link {
+  justify-self: center;
+  display: flex;
+  &_domlink {
+    text-decoration: none;
+    color: $dark;
+    justify-self: center;
+
+    &:hover,
+    :active {
+      transition: 100ms;
+      color: $mute;
+      font-size: 1.25em;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+  }
+}
